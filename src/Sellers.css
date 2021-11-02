@@ -1,0 +1,47 @@
+.sellers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.sellers img {
+    height: 300px;
+    margin-right: 16px;
+    position: relative;
+    top: 4px;
+}
+
+.sellers__logo {
+    background-color: rgb(38, 38, 38);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;    
+    margin-right: 8px;
+}
+
+.sellers__logo svg {
+    height: 22px;
+}
+
+.sellers__details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 700;
+}
+
+.sellers h4 {
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+.sellers__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+    font-size: 24px;
+}

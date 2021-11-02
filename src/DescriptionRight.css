@@ -1,0 +1,39 @@
+.description-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 78rem;
+    margin: 0px auto;
+}
+
+.right-column  {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 32px;
+    width: 45%;
+}
+
+.right-column h2 {
+    font-size: 32px
+}
+
+.right-column h2,
+.right-column p {
+    margin-bottom: 32px;
+}
+
+.description-right img {
+    height: 500px;
+}
+
+.description-right button {
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 0.125rem;
+    font-weight: 700;
+}

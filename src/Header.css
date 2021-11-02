@@ -1,0 +1,79 @@
+.header {
+    height: 65px;
+    border-bottom: 0.0625rem solid rgb(215, 215, 215);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 32px;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    width: 100%;
+    z-index: 10px;
+}
+
+.header__logo svg {
+    height: 24px;
+    fill: #FF2301;
+}
+
+.header form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header form svg {
+    position: relative;
+    left: 35px;
+}
+
+.header input {
+    height: 40px;
+    width: 664px;
+    padding: 0 0 0 40px;
+    border: 0.0625rem solid rgb(175, 175, 175);
+    border-radius: 0.25rem;
+    font-family: "GT America Extended", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 0.875rem;
+    box-shadow: none;
+    appearance: none;
+    margin: 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.header .btn-black {
+    height: 28px;
+    width: 100px !important;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 0.125rem;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 24px;
+}
+
+.header button {
+    height: 28px;
+    cursor: pointer;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "GT America Extended", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    background-color: white;
+    border: none;
+    font-weight: 700;
+
+}
+
+.header__login-btns {
+    width: 250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

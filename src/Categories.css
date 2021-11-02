@@ -1,0 +1,45 @@
+.categories table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.categories tr {
+    padding-bottom: 1.5rem;
+    overflow: hidden;
+}
+
+.categories img {
+    height: 430px;
+}
+
+.categories__title {
+    background: rgb(255, 255, 255);
+    padding: 2rem 1rem 0px;
+    width: 75%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 90px;
+    flex-direction: column;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 700;
+    z-index: 0;
+}
+
+.categories__title button {
+    margin-top: 20px;
+    width: 121px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 0.125rem;
+    font-weight: 700;
+}

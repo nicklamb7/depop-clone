@@ -1,0 +1,33 @@
+.section {
+    width: 100%;
+    height: 520px;
+    background-image: url("https://d3170a3msf25m.cloudfront.net/assets/narrative/hero@2x.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 5rem;
+    margin-top: 25px;
+}
+
+.section__text {
+    margin: 0 auto;
+    width: 80rem;
+
+}
+
+.section h1 {
+    padding: 16px;
+    font-size: 40px;
+}
+
+.section p {
+    padding: 16px;
+}
+
+.section svg {
+    height: 38px;
+    padding-top: 16px;
+    padding-left: 12px;
+}
